@@ -1,0 +1,20 @@
+name: ci
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  eslint-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+      - name: Install, Linter and Build
+        run: |
+          bun install
+          bun run lint
+          bun run build
