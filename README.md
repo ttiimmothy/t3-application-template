@@ -1,6 +1,8 @@
 # T3 Application Template
 [![ci](https://github.com/ttiimmothy/t3-application-template/actions/workflows/ci.yml/badge.svg)](https://github.com/ttiimmothy/t3-application-template/actions/workflows/ci.yml)
 
+T3 Application Template is a template.
+
 ## Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
